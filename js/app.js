@@ -44,4 +44,12 @@ let mensagem = `A soma de ${numero1} e ${numero2} é igual a ${soma}.`;
 
 console.log (mensagem);
 
+// Receba, no mínimo, duas sentenças como uma string e utilize split() 
+// para quebrá-la em frases menores com base em um ponto e vírgula como delimitador.
+
+let frase = 'Nestas férias optamos por ir à piscina ; Neste ano não queremos ir à praia.'
+let fraseSeparada = frase.split(';');
+
+console.log(fraseSeparada);
+
 
