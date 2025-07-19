@@ -32,6 +32,16 @@ function adicionar() {
 function limpar() {
     totalGeral = 0;
     document.getElementById('lista-produtos').innerHTML = '';
-    document.getElementById('valor-total').textContent = 'R$ 0';
-    
+    document.getElementById('valor-total').textContent = 'R$ 0';    
 }
+
+//Faça a soma de duas variáveis numéricas e apresente no console com uma mensagem amigável em Template String.
+let numero1 = 15;
+let numero2 = 20;
+
+let soma = numero1 + numero2;
+let mensagem = `A soma de ${numero1} e ${numero2} é igual a ${soma}.`;
+
+console.log (mensagem);
+
+
